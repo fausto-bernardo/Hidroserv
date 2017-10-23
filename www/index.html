@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hidroserv</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Hidroserv serviços Geofísica Georadar GPR Eletrorresistividade Sísmica Geologia " >
+    <meta name="keywords" content="Geofísica Georadar GPR Eletrorresistividade Sísmica.">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main_style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+    <link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/tms-0.4.1.js"></script>
+    <script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>
+    <script>
+
+    /* Optionally override the settings defined at the top of the highslide.js file. The parameter hs.graphicsDir is important! */
+    hs.graphicsDir = 'highslide/graphics/';
+	hs.align = 'center';
+	hs.transitions = ['expand', 'crossfade'];
+	hs.outlineType = 'rounded-white';
+	hs.wrapperClassName = 'controls-in-heading';
+	hs.fadeInOut = true;
+	//hs.dimmingOpacity = 0.75;
+
+	// Add the controlbar
+	if (hs.addSlideshow) hs.addSlideshow({
+		//slideshowGroup: 'group1',
+		interval: 5000,
+		repeat: false,
+		useControls: true,
+		fixedControls: false,
+		overlayOptions: {
+			opacity: 1,
+			position: 'top right',
+			hideOnMouseOut: false
+		}
+	});
+
+		$(document).ready(function(){
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:true,
+				prevBu:'.prev',
+				nextBu:'.next',
+				playBu:false,
+				duration:500,
+				preset:'fade',
+				pagination:true,//'.pagination',true,'<ul></ul>'
+				pagNums:false,
+				slideshow:3000,
+				numStatus:false,
+				banners:'fromBottom',// fromLeft, fromRight, fromTop, fromBottom
+				waitBannerAnimation:false,
+				progressBar:false
+			})
+			
+	 	}) 
+		$(function(){
+		  if($(window).width() <= 1066)
+			{
+			  $("#slider .prev").css("left", "55px")
+			  $("#slider .next").css("right", "55px")
+			}
+		})
+	</script>
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+</head>
+<body>
+<div class="bg">
+   <header>
+       <div class="main wrap">
+       		<h1><a href="index.html"><img src="images/logotipo.png" alt=""></a></h1>
+            <p><span>(51) 3398-4695</span><span>(51) 9964-0108</span><span class="ema">hidroserv@hidroservgeo.com</span></p>
+            <p><img src="images/phone.png" alt=""></a></p>
+       </div>
+       <nav>  
+          <ul class="menu">
+          <li class="mapeamento"><a href="#">MAPEAMENTO DO SUBSOLO POR IMAGENS</a></li>
+<!--
+              <li class="current"><a href="index.html" class="home"><img src="images/home.jpg" alt=""></a></li>
+              <li><a href="about.html">Empresa	</a></li>
+              <li><a href="maintenance.html">Portfólio</a></li>
+              <li><a href="repair.html">Clientes</a></li>
+              <li><a href="price-list.html">Contato</a></li>
+-->           
+          </ul>
+          <div class="clear"></div>
+        </nav>
+   </header>
+   <div id="slider">
+       <div class="slider-block">
+          <div class="slider">
+              <ul class="items">
+                  <li><img src="images/slide-1.jpg" alt="" />
+                  <li><img src="images/slide-2.jpg" alt="" />
+                  <li><img src="images/slide-3.jpg" alt="" />
+                  <li><img src="images/slide-4.jpg" alt="" />
+                  <li><img src="images/slide-5.jpg" alt="" />
+                  <li><img src="images/slide-6.jpg" alt="" />
+                  <li><img src="images/slide-7.jpg" alt="" />
+<!--
+                  <li><img src="images/slide-8.jpg" alt="" /><div class="banner"><div><span>Belo</span><strong>Pra Ser Amor</strong><p>O novo CD de Belo está muito interessante por causa dos seus duetos com outros cantores para deixar o CD repleto de músicas boas e vozes bonitas em suas composições.</p><a href="#" class="button">Saiba Mais</a></div></div>
+-->
+              </ul>
+          </div>
+          <a href="#" class="prev"></a>
+          <a href="#" class="next"></a>
+        </div>
+    </div>
+   <!--==============================content================================-->
+   <section id="content">
+      <div class="block-1 box-1">
+        <div>
+            <img src="images/page1-img1.jpg" alt="">
+            <p class="text-1">Geofísica <strong>Aplicada</strong></p>
+            <p class="text-resumo">Estudo das ocorrências ou estruturas geológicas, relativamente pequenas, localizadas na crosta terrestre. Disponibilizamos os seguintes produtos e serviços:</p>
+            <ul class="subitens">
+				<li class="subitenscontent">Georadar</li>
+				<li class="subitenscontent">Eletrorresistividade</li>
+				<li class="subitenscontent">Polarização Induzida (IP)</li>
+				<li class="subitenscontent">Sísmica</li>
+				<li class="subitenscontent">Magnetometria</li>
+				<li class="subitenscontent">Eletromagnético</li>
+			</ul>
+<!--
+            <a href="#" class="button">Saiba Mais</a>
+-->
+        </div>
+        <div>
+            <img src="images/page1-img2.jpg" alt="">
+            <p class="text-1">Geologia <strong>de Engenharia</strong></p>
+            <p class="text-resumo">Geologia de engenharia é um ramo das ciências geológicas que se dedica aos problemas e aplicações de conceitos geológicos no âmbito da engenharia. Disponibilizamos os seguintes produtos e serviços:</p>
+								<ul class="subitens">
+									<li class="subitenscontent">As Built Underground</li>
+									<li class="subitenscontent">Geotecnia</li>
+									<li class="subitenscontent">Sismografia</li>
+									<li class="subitenscontent">Geologia e Mineração</li>
+								</ul>
+<!--
+            <a href="#" class="button">Saiba Mais</a>
+-->
+        </div>
+        <div>
+            <img src="images/page1-img3.jpg" alt="">
+            <p class="text-1">Hidrogeologia <strong>Geociências</strong></p>
+            <p class="text-resumo">Estudo das águas subterrâneas quanto ao seu movimento, volume, distribuição e qualidade. Através da hidrogeologia é possível verificar a vazão de poço, a recarga do aquífero e outras informações necessárias ao bom aproveitamento e proteção destes depósitos subterrâneos de água. Disponibilizamos os seguintes produtos e serviços:</p>
+								<ul class="subitens">
+									<li class="subitenscontent">Monitoramento</li>
+									<li class="subitenscontent">Locação Poços Tubulares</li>
+									<li class="subitenscontent">Contaminação</li>
+									<li class="subitenscontent">Aqüíferos</li>
+									<li class="subitenscontent">DNM-PORT 231 (Área de Proteção)</li>
+								</ul>
+<!--
+            <a href="#" class="button">Saiba Mais</a>
+-->
+        </div>
+      </div>
+      <div class="block-2 wrap pad-2">
+      	<div class="box-2">
+        	<h2 class="clr-1">Contato</h2>
+						<ul class="address">
+							<li><span>Cidade:</span>Porto Alegre / RS / Brasil</li>
+							<li><span>Telefone:</span>(51) 3398-4695</li>
+							<li><span>Celular:</span>(51) 9964-0108</li>
+							<li><span>Cep:</span>91370290</li>
+							<li><span>Email:</span><a href="mailto:"><span class="__cf_email__" data-cfemail="127a7b76607d61776064527a7b76607d6177606475777d3c717d7f">[email&#160;protected]</span><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a></li>
+						</ul>
+        </div>
+        <div class="box-3">
+        	<h2 class="clr-1">Galeria de Imagens</h2>
+				<div class="highslide-gallery">
+					
+					<a href="hsimages/gallery1.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery1.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery2.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery2.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery3.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery3.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery4.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery4.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery5.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery5.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery6.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery6.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery7.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery7.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery8.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery8.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery9.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery9.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery10.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery10.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery11.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery11.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery12.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery12.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery#fff13.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery13.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+					<a href="hsimages/gallery14.jpg" class="highslide" onclick="return hs.expand(this)">
+						<img src="hsimages/gallery14.thumb.jpg" alt="Highslide JS" title="Clique para ampliar" />
+					</a>
+					<div class="highslide-heading">Descrição da imagem</div>
+
+				</div> <!-- highslide-gallery -->
+        </div>    
+      </div>  
+   </section> 
+  <!--==============================footer=================================-->
+    <footer>
+        Website designed by <a href="" class="link" rel="nofollow" target="_blank">F.A.B</a>
+    </footer>	
+</div> 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>
